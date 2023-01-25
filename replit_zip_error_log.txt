@@ -1,0 +1,9 @@
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/.bin/esbuild","time":"2023-01-25T17:19:57Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/.bin/nanoid","time":"2023-01-25T17:19:57Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/.bin/resolve","time":"2023-01-25T17:19:57Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/.bin/rollup","time":"2023-01-25T17:19:57Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/.bin/vite","time":"2023-01-25T17:19:57Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/postcss/node_modules/.bin/nanoid","time":"2023-01-25T17:19:59Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/vite/node_modules/.bin/esbuild","time":"2023-01-25T17:20:00Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/vite/node_modules/.bin/resolve","time":"2023-01-25T17:20:00Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/vite/node_modules/.bin/rollup","time":"2023-01-25T17:20:00Z"}

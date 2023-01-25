@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Random Ideas and Stuff</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+		<!-- Style and CSS: CSS (Cascading Style Sheets), is used for styling. All the CSS stuff should be between <style> and </style>. You first declare what you are talking about (p, h1, body, etc.). Then, in curly brackets, do color (or background-color), colon, and then the color.
+	COLOR: Use rgb(x,y,z). In stead of x, y, and z, put the amount of whatever you want. Otherwise, you can use the names for common colors, such as green, blue, or yellow Finish with a semicolon. 
+	IDs: If you only want to change the color of one text (one <p> or a specific <h#>), you write something along the lines of the following when actually imputting the text: <h5 id="The-Fifth-Title">. No spaces are permitted in the title. When you actually designate that text in the <style>, you put a hashtag, followed by the id. The rest is the same as always. 
+	CLASSES: instead of an id="", write class="". This can be used to color a bunch of stuff the same way. In the <style> tag, start it with a . (period) and then the name of the class. The rest is the same as always.
+	-->
+	
+	<style>
+		h2 {color: rgb(75,50,200);}
+		body {background-color: rgb(200,75,50);}
+		h3 {background-color: rgb(50,200,75);}
+		h4 {color: cyan;}
+		#h5-The_Fifth_Title {background-color: purple;}
+		.hi {color: red;}
+	</style>
+	
+</head>
+
+<body> 
+	<!-- Headers: there is only is h1-h6, the lower the number, the higher the priority -->
+	<h1>h1</h1>
+	<h2>h2</h2>
+	<h3>h3</h3>
+	<h4>h4</h4>
+	<h5 id="h5-The_Fifth_Title">h5</h5>
+	<h6 class="hi">h6</h6>
+	<!-- Text: use <p> and </p> to type in a paragraph. <br> is for /n (next line). <em> and </em> to emphasize (italisize). <strong> and </strong> to bold -->
+	<p>p; <br> <em>em</em>; <strong>strong</strong>; <em class="hi"> italisized class test</em>;</p>
+	<!-- Lists: <ol> and </ol> for an ordered list. <ul> and </ul> to make an unordered list. <li> and </li> to add items to a list. -->
+	<ol>
+		<li class="hi">ol</li>
+		<li>li</li>
+	</ol>
+	<ul>
+		<li>ul</li>
+		<li>li</li>
+	</ul>
+	
+	<!-- Images: start with "<img" (short for image) to designate it as an image. src="" (short for source), and put the url in the quotes to designate which image. alt="" (short for alternetive text) to tell blind people what it is. width="" and heigt="" to designate the width and height.	Don't forget to close the carrots. If you have the image downloaded, you can go to the 3 dots, and upload you file. Since "whateverthisis.jpeg" is in the folder "img", you preficit it with "img/".-->
+	<img src="img/whatevenisthis.jpeg" alt="wide fish inside a chiken smoking a cigarette." width="350" height="250">
+
+	<!-- Buttons and Links: use anchor tags, <a> & </a>, to make something a clickable link. To chose the link, in the start you type the following: <a href="TYPE YOUR LINK HERE">. Then, you coule put <button> and </button> in between to make it a button rather than hypertext. Inside, you type what you want the text to say. Adding 'http://' is necessary.-->
+	<br>
+	<a href="http://google.com"> This goes to Google. </a>
+	<a href="http://corndog.io"> <button>This goes to corndog.io</button></a>
+
+
+	
+  <script src="script.js"></script>
+  
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
