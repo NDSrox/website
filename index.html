@@ -7,7 +7,10 @@
   <title>Random Ideas and Stuff</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 
-		<!-- Style and CSS: CSS (Cascading Style Sheets), is used for styling. All the CSS stuff should be between <style> and </style>. You first declare what you are talking about (p, h1, body, etc.). Then, in curly brackets, do color (or background-color), colon, and then the color.
+	<!-- Style and CSS: CSS (Cascading Style Sheets), is used for styling.
+	All the CSS stuff should be between <style> and </style>.
+	You first declare what you are talking about (p, h1, body, etc.).
+	Then, in curly brackets, do color (or background-color), colon, and then the color.
 	COLOR: Use rgb(x,y,z). In stead of x, y, and z, put the amount of whatever you want. Otherwise, you can use the names for common colors, such as green, blue, or yellow Finish with a semicolon. 
 	IDs: If you only want to change the color of one text (one <p> or a specific <h#>), you write something along the lines of the following when actually imputting the text: <h5 id="The-Fifth-Title">. No spaces are permitted in the title. When you actually designate that text in the <style>, you put a hashtag, followed by the id. The rest is the same as always. 
 	CLASSES: instead of an id="", write class="". This can be used to color a bunch of stuff the same way. In the <style> tag, start it with a . (period) and then the name of the class. The rest is the same as always.
@@ -20,19 +23,24 @@
 		h4 {color: cyan;}
 		#h5-The_Fifth_Title {background-color: purple;}
 		.hi {color: red;}
+		#HI {color: blue;}
 	</style>
 	
 </head>
 
 <body> 
-	<!-- Headers: there is only is h1-h6, the lower the number, the higher the priority -->
+	<!-- Headers: there is only is h1-h6.
+	The lower the number, the higher the priority. -->
 	<h1>h1</h1>
 	<h2>h2</h2>
 	<h3>h3</h3>
 	<h4>h4</h4>
 	<h5 id="h5-The_Fifth_Title">h5</h5>
 	<h6 class="hi">h6</h6>
-	<!-- Text: use <p> and </p> to type in a paragraph. <br> is for /n (next line). <em> and </em> to emphasize (italisize). <strong> and </strong> to bold -->
+	<!-- Text: use <p> and </p> to type in a paragraph.
+	<br> is for /n (next line).
+	<em> and </em> to emphasize (italisize).
+	<strong> and </strong> to bold -->
 	<p>p; <br> <em>em</em>; <strong>strong</strong>; <em class="hi"> italisized class test</em>;</p>
 	<!-- Lists: <ol> and </ol> for an ordered list. <ul> and </ul> to make an unordered list. <li> and </li> to add items to a list. -->
 	<ol>
@@ -43,8 +51,17 @@
 		<li>ul</li>
 		<li>li</li>
 	</ul>
+	<!-- Single word color: to change the color of a single word/phrase in a paragraph, use <span> and </span>.
+		You can type <span style="color: rgb(x,y,z)"> or <span style="color: green or something">.
+		Another way is to assign it a class in the span; <span id="whatever the id is"> or <span class="whatever the class is">.-->
+	<p>This <span style="color: red;">is</span> a <span id="HI">blue</span> sentence.</p>
 	
-	<!-- Images: start with "<img" (short for image) to designate it as an image. src="" (short for source), and put the url in the quotes to designate which image. alt="" (short for alternetive text) to tell blind people what it is. width="" and heigt="" to designate the width and height.	Don't forget to close the carrots. If you have the image downloaded, you can go to the 3 dots, and upload you file. Since "whateverthisis.jpeg" is in the folder "img", you preficit it with "img/".-->
+	<!-- Images: start with "<img>" (short for image) to designate it as an image.
+		src="" (short for source), and put the url in the quotes to designate which image.
+		alt="" (short for alternetive text) to tell blind people what it is.
+		width="" and heigt="" to designate the width and height.
+		Don't forget to close the carrots. If you have the image downloaded, you can go to the 3 dots, and upload you file.
+		Since "whateverthisis.jpeg" is in the folder "img", you preficit it with "img/".-->
 	<img src="img/whatevenisthis.jpeg" alt="wide fish inside a chiken smoking a cigarette." width="350" height="250">
 
 	<!-- Buttons and Links: use anchor tags, <a> & </a>, to make something a clickable link. To chose the link, in the start you type the following: <a href="TYPE YOUR LINK HERE">. Then, you coule put <button> and </button> in between to make it a button rather than hypertext. Inside, you type what you want the text to say. Adding 'http://' is necessary.-->
