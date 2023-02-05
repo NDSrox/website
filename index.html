@@ -11,23 +11,35 @@
 	All the CSS stuff should be between <style> and </style>.
 	You first declare what you are talking about (p, h1, body, etc.).
 	Then, in curly brackets, do color (or background-color), colon, and then the color.
-	COLOR: Use rgb(x,y,z). In stead of x, y, and z, put the amount of whatever you want. Otherwise, you can use the names for common colors, such as green, blue, or yellow Finish with a semicolon. 
-	IDs: If you only want to change the color of one text (one <p> or a specific <h#>), you write something along the lines of the following when actually imputting the text: <h5 id="The-Fifth-Title">. No spaces are permitted in the title. When you actually designate that text in the <style>, you put a hashtag, followed by the id. The rest is the same as always. 
-	CLASSES: instead of an id="", write class="". This can be used to color a bunch of stuff the same way. In the <style> tag, start it with a . (period) and then the name of the class. The rest is the same as always.
-	-->
+	COLOR: Use rgb(x,y,z). In stead of x, y, and z, put the amount of whatever you want.
+		Otherwise, you can use the names for common colors, such as green, blue, or yellow.
+		Finish with a semicolon. 
+	IDs: If you only want to change the color of one text (one <p> or a specific <h#>),
+			you write something along the lines of the following when actually imputting the text: <h5 id="The-Fifth-Title">.
+			No spaces are permitted in the title. When you actually designate that text in the <style>, you put a hashtag, followed by the id.
+			The rest is the same as always. 
+	CLASSES: instead of an id="", write class="".
+		This can be used to color a bunch of stuff the same way. In the <style> tag, start it with a . (period) and then the name of the class.
+		The rest is the same as always.
+	TABLE STUFF: to set the color of the table's walls to black, do solid black.
+		To widen the lines (& to make them visible), change it in "border: <#>px".
+	FONT: the font is changed as follows: "font-family: <something simple, like sans-serif or monospace>;"
+		Another option is: 'font-famliy: "<a font that exists on both computers, can be found in google docs>";'
+		You should always follow up your special fonts with a comma and a regular font, just in case Plan A doesn't exist on the client's computer.
+		-->
 
 	<style>
-		h1 {text-align: center;}
-		h2 {color: rgb(75,50,200);}
+		h1 {text-align: center; font-family: "Helvetica", "Comic Sans MS", serif;}
+		h2 {color: rgb(75,50,200); font-family: cursive}
 		body {background-color: rgb(200,75,50);}
-		h3 {background-color: rgb(50,200,75);}
+		h3 {background-color: rgb(50,200,75); font-family: sans-serif;}
 		h4 {color: cyan;}
 		#h5-The_Fifth_Title {background-color: purple;}
 		.hi {color: red;}
 		#HI {color: blue;}
 		table, th, td{border: 1px solid black;}
 		table {width: 100%}
-
+		#typewriter {font-family: monospace;}
 	</style>
 	
 </head>
@@ -60,7 +72,7 @@
 			<tr>
 				<td><h4>h4</h4></td>
 				<td><p>br <br>br</p></td>
-				<td><p>This <span style="color: red;">is</span> a <span id="HI">blue</span> sentence.</p></td>
+				<td><p id="typewriter">This <span style="color: red;">is</span> a <span id="HI">blue</span> sentence that looks like it was written on a type writer.</p></td>
 			</tr>
 			<tr>
 				<td><h5 id="h5-The_Fifth_Title">h5</h5></td>
