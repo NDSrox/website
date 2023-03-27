@@ -34,6 +34,7 @@
 		em: number of times larger than it is supposed to be
 	SHORT HAND: for short hand, type "font: <font-weight or font-style such as bold or italic> <font-size> <font, such as cursive>;"
 	TEXT DECORATION: type "text-decoration: <the decoration, like underline>;"
+		If you set the text-decoration to "none" on a link, it will make it look like regular text.
 		-->
 
 	<style>
@@ -52,6 +53,7 @@
 		#typewriter-A {font-family: monospace; font-size: 1.05em; font-style: italic;}
 		#typewriter-B {font: bold 1.1em cursive}
 		table, th {font-size: 3 em;}
+		#div {background-color: rgb(0,100,200);}
 	</style>
 	
 </head>
@@ -86,14 +88,14 @@
 				<td><p>br <br>br</p></td>
 				<td><p id="typewriter-A">This <span style="color: red;">is</span> a <span id="HI">blue</span> sentence that looks like it was written on a type writer.</p></td>
 			</tr>
+			<div id="div">
 			<tr>
 				<td><h5 id="h5-The_Fifth_Title">h5</h5></td>
 				<td><ol>
 					<li class="hi">ol</li>
 					<li>li</li>
 				</ol></td>
-				<td><p id="typewriter-B">This <span style="color: red;">is</span> a <span id="HI">blue</span> sentence that was written in CSS shorthand.</p>
-				</td>
+				<td><p id="typewriter-B">This <span style="color: red;">is</span> a <span id="HI">blue</span> sentence that was written in CSS shorthand.</p></td>
 			</tr>
 			<tr>
 				<td><h6 class="hi">h6</h6></td>
@@ -101,6 +103,7 @@
 					<li>ul</li>
 					<li>li</li>
 				</ul></td>
+				</div>
 				<td><script src="script.js"></script></td>
 				<td></td>
 			</tr>
