@@ -1,4 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  #Main_header{background-color: ;}
+  #Main_header{text-align: center;}
+  body{background-image: <img src="img/white-abstract-background.gif">;}
 }
