@@ -1,150 +1,33 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Random Ideas and Stuff</title>
-  <!--<link href="style.css" rel="stylesheet" type="text/css" />
-
-	 Style and CSS: CSS (Cascading Style Sheets), is used for styling.
-	All the CSS stuff should be between <style> and </style>.
-	You first declare what you are talking about (p, h1, body, etc.).
-	Then, in curly brackets, do color (or background-color), colon, and then the color.
-	COLOR: Use rgb(x,y,z). In stead of x, y, and z, put the amount of whatever you want.
-		Otherwise, you can use the names for common colors, such as green, blue, or yellow.
-		Finish with a semicolon. 
-	IDs: If you only want to change the color of one text (one <p> or a specific <h#>),
-		you write something along the lines of the following when actually imputting the text: <h5 id="The-Fifth-Title">.
-		No spaces are permitted in the title. When you actually designate that text in the <style>, you put a hashtag, followed by the id.
-		The rest is the same as always. 
-		you write something along the lines of the following when actually imputting the text: <h5 id="The-Fifth-Title">.
-		No spaces are permitted in the title. When you actually designate that text in the <style>, you put a hashtag, followed by the id.
-		The rest is the same as always. 
-	CLASSES: instead of an id="", write class="".
-		This can be used to color a bunch of stuff the same way. In the <style> tag, start it with a . (period) and then the name of the class.
-		The rest is the same as always.
-	TABLE STUFF: to set the color of the table's walls to black, do solid black.
-		To widen the lines (& to make them visible), change it in "border: <#>px".
-	FONT STYLE: the font is changed as follows: "font-family: <something simple, like sans-serif or monospace>;"
-		Another option is: 'font-famliy: "<a font that exists on both computers, can be found in google docs>";'
-		You should always follow up your special fonts with a comma and a regular font, just in case Plan A doesn't exist on the client's computer.
-	FONT SIZE: "font-size: <#><unit of measurement>" CSS supports the following measurments:
-		px: pixels
-		em: number of times larger than it is supposed to be
-	SHORT HAND: for short hand, type "font: <font-weight or font-style such as bold or italic> <font-size> <font, such as cursive>;"
-	TEXT DECORATION: type "text-decoration: <the decoration, like underline>;"
-		If you set the text-decoration to "none" on a link, it will make it look like regular text.
-		-->
-
-	<style>
-		h1 {text-align: center;}
-		h2 {color: rgb(75,50,200);}
-		h1 {text-align: center; font-family: "Helvetica", "Comic Sans MS", serif;}
-		h2 {color: rgb(75,50,200); font-family: cursive; text-decoration: underline;}
-		body {background-color: rgb(200,75,50);}
-		h3 {background-color: rgb(50,200,75); font-family: sans-serif;}
-		h4 {color: cyan; font-size: 12px;}
-		#h5-The_Fifth_Title {background-color: purple;}
-		.hi {color: red; font-size: 20px;}
-		#HI {color: blue; font-size: 2em;}
-		table, th, td{border: 1px solid black;}
-		table {width: 100%}
-		#typewriter-A {font-family: monospace; font-size: 1.05em; font-style: italic;}
-		#typewriter-B {font: bold 1.1em cursive}
-		table, th {font-size: 3 em;}
-		#div {background-color: rgb(0,100,200);}
-	</style>
-	
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Natan's Projects</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+    #Main_header{background-color: greenyellow;}
+    #Main_header{text-align: center;}
+    body{background-image: url('img/white-abstract-background.gif'); background-repeat:repeat;}
+    .button{border-radius: 8px; background-color: #04AA6D; border: none; color: white; padding: 20px;
+            text-align: center; text-decoration: none; display: inline-block; font-size:
+            16px; margin: 4px 2px;}
+    table{text-align: center;}
+    </style>
 </head>
-
-<body> 
-	<table>
-		<thead>
-			<tr>
-				<th id="header-title">Headers</th>
-				<th>Text stuff</th>
-				<th>Links (no pics)</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td><h1>h1</h1></td>
-				<td><p>p</p></td>
-				<td><a href="https://google.com" target="_blank"> This opens Google in another tab. </a></td>
-			</tr>
-			<tr>
-				<td><h2>h2</h2></td>
-				<td><p><strong>strong</strong></p></td>
-				<td><a href="#some-random-text"><button>This will jump to just some random text</button></a></td>
-			</tr>
-			<tr>
-				<td><h3>h3</h3></td>
-				<td><p><em class="hi"> italisized class test</em></p></td>
-				<td><a href="https://corndog.io"> <button>This goes to corndog.io</button></a></td>
-			</tr>
-			<tr>
-				<td><h4>h4</h4></td>
-				<td><p>br <br>br</p></td>
-				<td><p id="typewriter-A">This <span style="color: red;">is</span> a <span id="HI">blue</span> sentence that looks like it was written on a type writer.</p></td>
-			</tr>
-			<div id="div">
-			<tr>
-				<td><h5 id="h5-The_Fifth_Title">h5</h5></td>
-				<td><ol>
-					<li class="hi">ol</li>
-					<li>li</li>
-				</ol></td>
-				<td><p id="typewriter-B">This <span style="color: red;">is</span> a <span id="HI">blue</span> sentence that was written in CSS shorthand.</p></td>
-			</tr>
-			</div>
-			<tr>
-				<td><h6 class="hi">h6</h6></td>
-				<td><ul>
-					<li>ul</li>
-					<li>li</li>
-				</ul></td>
-				
-				</td>
-			</tr>
-		</tbody>
-	</table>
-	<td><script src="script.js"></script>
-	<a href="https://getlilah.jeddev.net"><button><img src="img/whatevenisthis.jpeg" alt="wide fish inside a chiken smoking a cigarette." width="350" height="250"></button></a>
-	<p id="some-random-text">This is just some random text</p>
-<!-- Text: use <p> and </p> to type in a paragraph.
-<br> is for /n (next line).
-<em> and </em> to emphasize (italisize).
-<strong> and </strong> to bold -->
-<!-- Lists:
-<ol> and </ol> for an ordered list.
-<ul> and </ul> to make an unordered list.
-<li> and </li> to add items to a list. -->
-<!-- Single word color: to change the color of a single word/phrase in a paragraph, use <span> and </span>.
-You can type <span style="color: rgb(x,y,z)"> or <span style="color: green or something">.
-Another way is to assign it a class in the span; <span id="whatever the id is"> or <span class="whatever the class is">.-->
-<!-- Buttons and Links: use anchor tags, <a> & </a>, to make something a clickable link.
-To chose the link, in the start you type the following:
-<a href="TYPE YOUR LINK HERE">.
-Then, you coule put <button> and </button> in between to make it a button rather than hypertext.
-Inside, you type what you want the text to say. Adding 'http://' is necessary.-->
-<!-- Images: start with "<img>" (short for image) to designate it as an image.
-src="" (short for source), and put the url in the quotes to designate which image.
-alt="" (short for alternetive text) to tell blind people what it is.
-width="" and height="" to designate the width and height.
-Don't forget to close the carrots. If you have the image downloaded, you can go to the 3 dots, and upload you file.
-Since "whateverthisis.jpeg" is in the folder "img", you preficit it with "img/".-->
-<!-- Jumping Around the Page: to jump from one part of the page to another (like a table of contents), use this.
-You give the text you want whatever id you choose.
-To call it back in a hyperlink, type the id preficited with a # instead of the link, inside the quotes.-->  
-<!-- Headers: there is only is h1-h6.
-The lower the number, the higher the priority. -->
-<!--
-This script places a badge on your repl's full-browser view back to your repl's cover
-page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-teal, blue, blurple, magenta, pink!
-<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
--->
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th><button href="pics.html">Find more Photos and Videos of my Projects</button></th>
+                <th>Ideas in Progress</th>
+                <th>Random Ideas for the Future</th>
+                <th>Completed Projects</th>
+            </tr>
+        </thead>
+    </table>
+    <h1 id="Main_header">A Compilation of Passion Projects</h1>
+    <button class = "button">AbC</button>
 </body>
 
 </html>
