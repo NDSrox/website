@@ -10,8 +10,16 @@ a.button {
 
   text-decoration: none;
   color: initial;
-  border-radius: 8px; background-color: #04AA6D; border: none; color: white; padding: 20px;
-  text-align: center; text-decoration: none; display: inline-block; font-size:
+  border-radius: 8px;
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
 }
 
 body {
