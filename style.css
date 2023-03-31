@@ -33,3 +33,7 @@ table {
   width:100%;
   background-color: greenyellow;
 }
+
+.not-a-button {
+  text-decoration: none;
+}
