@@ -27,14 +27,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: justify;
-  margin: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .tbl {
   text-align: center;
   width:100%;
   background-color: greenyellow;
-  margin: 0px;
 }
 
 .not-a-button {
