@@ -26,9 +26,11 @@ body {
   background-image: url("/img/white-abstract-background.gif");
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: justify;
+  margin: 50px;
 }
 
-table {
+.tbl {
   text-align: center;
   width:100%;
   background-color: greenyellow;
