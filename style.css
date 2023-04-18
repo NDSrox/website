@@ -38,12 +38,11 @@ body {
 }
 
 .not-a-button {
-  text-decoration: none;
   color: black;
+  display: inline;
 }
 
 #Main_header {
-  text-decoration: none;
-  color: darkmagenta;
-  text-decoration: none;
+  color: black;
+  display: inline-block;
 }
