@@ -42,6 +42,6 @@ body {
 }
 
 #Main_header {
-  text-decoration:overline;
+  text-decoration:none;
   color: black;
 }
