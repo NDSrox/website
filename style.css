@@ -57,7 +57,7 @@ a.button {
   z-index: 999; /* so that it stays on top of all other elements */
 	
 }
-
+ 
 .nocurse {
 	position: absolute;
 	height: 100%;
