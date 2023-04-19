@@ -60,9 +60,9 @@ a.button {
  
 .nocurse {
 	position: absolute;
+  pointer-events: none;
 	height: 100%;
 	width: 100%;
 	cursor: none;
-  pointer-events: none;
 }
 
