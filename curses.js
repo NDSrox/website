@@ -26,7 +26,7 @@ function animateCircles() {
     circles.forEach(function (circle, index) {
     //Ofset the circels by -12px in both directions so that they are centered
     circle.style.left = x - 5 + "px";
-    circle.style.top = y - 5 + "px";
+    circle.style.top = y - 6 + "px";
     	//Makes the next circle a bit smaller
     circle.style.scale = (circles.length - index) / circles.length;
 		

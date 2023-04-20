@@ -67,8 +67,10 @@ body {
 }
  
 .nocurse {
+  cursor: none;
 	position: absolute;
   z-index: 998;
+  cursor: none;
   pointer-events: none;
 	height: 100%;
 	width: 100%;
