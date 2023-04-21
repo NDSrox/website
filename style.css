@@ -67,7 +67,7 @@ body {
 	
 }
  
-.nocurse {
+.nocurse:hover {
   cursor: none;
 	position: absolute;
   z-index: 998;
