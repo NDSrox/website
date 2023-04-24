@@ -34,8 +34,8 @@ function animateCircles() {
     circle.y = y;
 		//Ofsets the circles
     const nextCircle = circles[index + 1] || circles[0];
-    x += (nextCircle.x - x) * 0.05;
-    y += (nextCircle.y - y) * 0.05;
+    x += (nextCircle.x - x) * 0.01;
+    y += (nextCircle.y - y) * 0.01;
   });
 	    //Makes sure that the circles do not get stuck ungrouped when you move the mouse off the page
     requestAnimationFrame(animateCircles);
