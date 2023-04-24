@@ -43,8 +43,6 @@ body {
   text-align: center;
   width:100%;
   background-color: greenyellow;
-  background-color: blue;
-	
 }
 
 #Main_header {
@@ -80,3 +78,21 @@ body {
   cursor: none;
 }
 
+.onpage {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+  border-radius: 8px;
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
