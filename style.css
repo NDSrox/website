@@ -7,8 +7,8 @@ body {
   background-image: url("/img/white-abstract-background.gif");
   background-size: 100%;
   text-align: justify;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-family:"Oswald", "Lato", "Nunito", "Roboto Mono", "Georgia", serif;
 }
 
@@ -32,20 +32,13 @@ a.button {
   margin: 4px 2px;
 }
 
-body {
-  background-image: url("/img/white-abstract-background.gif");
-  background-size: cover;
-  text-align: justify;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
 .tbl {
   text-align: center;
   width:90%;
   background-color: greenyellow;
   position:fixed;
-  margin: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #Main_header {
@@ -103,9 +96,10 @@ body {
 #glass-door-project {
   display: inline-block;
   border-radius: 8px;
-  background-color: lightgrey;
-  width: 70%;
-  margin: 5px;
-  padding: 10px;
+  width: 100px;
+  margin: 25px;
+  padding: 50px;
   border: groove;
+  background-color: lightgrey;
+  background-color: aqua;
 }
