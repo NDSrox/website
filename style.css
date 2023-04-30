@@ -6,6 +6,7 @@
 body {
   background-image: url("/img/white-abstract-background.gif");
   background-size: 100%;
+  height: 100%;
   text-align: justify;
   margin-left: 10px;
   margin-right: 10px;
