@@ -42,9 +42,10 @@ body {
 
 .tbl {
   text-align: center;
-  width:100%;
+  width:90%;
   background-color: greenyellow;
   position:fixed;
+  margin: 10%;
 }
 
 #Main_header {
@@ -104,4 +105,7 @@ body {
   border-radius: 8px;
   background-color: lightgrey;
   width: 70%;
+  margin: 5px;
+  padding: 10px;
+  border: groove;
 }
