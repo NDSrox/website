@@ -36,8 +36,7 @@ a.button {
   text-align: center;
   width:90%;
   background-color: greenyellow;
-  position:fixed;
-  margin-left: 10%;
+  /* margin-left: 10%; */
   margin-right: 10%;
 }
 
@@ -96,10 +95,10 @@ a.button {
 #glass-door-project {
   display: inline-block;
   border-radius: 8px;
-  width: 100px;
-  margin: 25px;
-  padding: 50px;
+  width: 750px;
+  margin: 10px;
+  padding: 25px;
   border: groove;
   background-color: lightgrey;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
