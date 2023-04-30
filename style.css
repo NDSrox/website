@@ -35,10 +35,10 @@ a.button {
 
 .tbl {
   text-align: center;
-  /* width:90%; */
+  width:90%;
   background-color: greenyellow;
-  /* margin-left: 10%; */
-  /* margin-right: 10%; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #Main_header {
@@ -98,8 +98,8 @@ a.button {
   border-radius: 8px;
   width: 750px;
   margin: 10px;
-  padding: 25px;
+  padding: 10px;
   border: groove;
-  background-color: lightgrey;
-  /* background-color: aqua; */
+  /* background-color: lightgrey; */
+  background-color: aqua;
 }
