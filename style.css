@@ -35,10 +35,10 @@ a.button {
 
 .tbl {
   text-align: center;
-  width:90%;
+  /* width:90%; */
   background-color: greenyellow;
   /* margin-left: 10%; */
-  margin-right: 10%;
+  /* margin-right: 10%; */
 }
 
 #Main_header {
@@ -100,6 +100,6 @@ a.button {
   margin: 10px;
   padding: 25px;
   border: groove;
-  /* background-color: lightgrey; */
-  background-color: aqua;
+  background-color: lightgrey;
+  /* background-color: aqua; */
 }
