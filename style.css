@@ -11,7 +11,7 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   font-family:"Oswald", "Lato", "Nunito", "Roboto Mono", "Georgia", serif;
-  text-align:center;
+  text-align: center;
 }
 
 a.button {
@@ -32,6 +32,7 @@ a.button {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
+  height: 5%;
 }
 
 .tbl {
