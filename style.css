@@ -20,6 +20,7 @@ a.button {
   -moz-appearance: button;
   appearance: button;
   border:outset;
+  text-align: center;
 
   text-decoration: none;
   color: initial;
