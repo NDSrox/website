@@ -8,10 +8,11 @@ body {
   background-size: 100%;
   height: 100%;
   text-align: justify;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
   font-family:"Oswald", "Lato", "Nunito", "Roboto Mono", "Georgia", serif;
   text-align: center;
+  font-size: 2em;
 }
 
 a.button {
@@ -27,7 +28,7 @@ a.button {
   /* border: none; */
   color: white;
   padding: 20px;
-  text-align: center;
+  text-align: justify;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -103,6 +104,6 @@ a.button {
   margin: 10px;
   padding: 10px;
   border: groove;
-  /* background-color: lightgrey; */
-  background-color: aqua;
+  background-color: lightgrey;
+  /* background-color: aqua; */
 }
