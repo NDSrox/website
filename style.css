@@ -12,6 +12,7 @@ body {
   margin-right: 25px;
   font-family:"Oswald", "Lato", "Nunito", "Roboto Mono", "Georgia", serif;
   text-align: justify;
+  font-size: medium;
 }
 
 a.button {
