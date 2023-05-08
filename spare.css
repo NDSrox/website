@@ -1,0 +1,36 @@
+div.cursors div {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  width: 32px;
+  height: 32px;
+  background-color: #ff4141;
+  border-radius: 50%;
+  z-index: 10000;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+div.cursors div span {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 300px;
+  
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #2b75ed;
+  
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+div.nocurse div.circle span.visible {
+  opacity: 1;
+}
+
+/* Ideas in progress - This is a project, or projects, that I am working on <em>right now</em>.
+Ideas for the Future - Here, I throw random ideas that I want to work on later.
+Completed projects - This is where I hold an archive of past projects.
+My Gallery - This is some pictures and videos not just of my projects, but also from my 3D prints. */
