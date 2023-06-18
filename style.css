@@ -107,3 +107,6 @@ a.button {
   width: 500px;
   overflow-y: scroll;
 }
+#main-explainer {
+  font-size: 1.25em;
+}
