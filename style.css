@@ -5,7 +5,7 @@
 
 body {
   background-image: url("/img/white-abstract-background.gif");
-  background-size: 100%;
+  background-size: cover;
   height: 100%;
   margin-left: 25px;
   margin-right: 25px;
@@ -102,6 +102,7 @@ a.button {
   margin: 10px;
   padding: 10px;
   border: groove;
-  background-color: lightgrey;
-  /* background-color: aqua; */
+  /* background-color: lightgrey; */
+  background-color: aqua;
+  overflow-x: scroll;
 }
