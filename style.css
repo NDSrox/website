@@ -102,9 +102,8 @@ a.button {
   padding: 10px;
   border: groove;
   background-color: aqua;
-  background-color: lightblue;
-  border: 1px solid black;
+  /* background-color: lightblue; */
   height: 100px;
   width: 500px;
-  overflow-x: scroll;
+  overflow-y: scroll;
 }
