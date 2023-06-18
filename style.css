@@ -58,7 +58,7 @@ a.button {
   top: 0;
   left: 0;
   pointer-events: none;
-  z-index: 997; /* so that it stays on top of all other elements */
+  z-index: 1001; /* so that it stays on top of all other elements */
 	
 }
  
@@ -85,7 +85,6 @@ a.button {
   color: initial;
   border-radius: 8px;
   background-color: rgb(0, 119, 255);
-  border: none;
   color: white;
   padding: 20px;
   text-align: center;
