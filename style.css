@@ -98,12 +98,12 @@ a.button {
   display: inline-block;
   border-radius: 8px;
   width: 1500px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
   padding: 10px;
   border: groove;
-  background-color: aqua;
-  /* background-color: lightblue; */
+  /* background-color: aqua; */
+  background-color: lightblue;
   overflow-x: auto;
   overflow-y: auto;
 }
