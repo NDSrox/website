@@ -97,7 +97,7 @@ a.button {
 #glass-door-project-imgs {
   display: inline-block;
   border-radius: 8px;
-  width: 1500px;
+  width: 100%;
   margin-left: 250px;
   margin-right: 250px;
   padding: 10px;
