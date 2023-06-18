@@ -103,5 +103,9 @@ a.button {
   border: groove;
   /* background-color: lightgrey; */
   background-color: aqua;
+  background-color: lightblue;
+  border: 1px solid black;
+  height: 100px;
+  width: 500px;
   overflow-x: scroll;
 }
