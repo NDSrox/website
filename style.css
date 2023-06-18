@@ -97,7 +97,7 @@ a.button {
 #glass-door-project-imgs {
   display: inline-block;
   border-radius: 8px;
-  width: 750px;
+  width: 10000px;
   margin: 10px;
   padding: 10px;
   border: groove;
@@ -105,7 +105,7 @@ a.button {
   /* background-color: lightblue; */
   height: 100px;
   width: 500px;
-  overflow-y: scroll;
+  overflow-x: scroll;
 }
 #main-explainer {
   font-size: 1.25em;
