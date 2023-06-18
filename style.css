@@ -104,7 +104,6 @@ a.button {
   /* background-color: aqua; */
   background-color: lightblue;
   height: 100px;
-  width: 500px;
   overflow-x: scroll;
 }
 #main-explainer {
