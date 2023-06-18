@@ -103,8 +103,8 @@ a.button {
   border: groove;
   /* background-color: aqua; */
   background-color: lightblue;
-  height: 100px;
   overflow-x: scroll;
+  overflow-y: auto;
 }
 #main-explainer {
   font-size: 1.25em;
