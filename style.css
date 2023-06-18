@@ -98,13 +98,13 @@ a.button {
   display: inline-block;
   border-radius: 8px;
   width: 1500px;
-  margin: 10px;
+  margin: 50px;
   padding: 10px;
   border: groove;
   /* background-color: aqua; */
   background-color: lightblue;
-  overflow-x: scroll;
-  overflow-y: auto;
+  overflow-x: auto;
+  overflow-y: scroll;
 }
 #main-explainer {
   font-size: 1.25em;
