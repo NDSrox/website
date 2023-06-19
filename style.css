@@ -6,7 +6,6 @@
 body {
   background-image: url("/img/white-abstract-background.gif");
   background-size: cover;
-  height: 100%;
   margin-left: 25px;
   margin-right: 25px;
   font-family:"Oswald", "Lato", "Nunito", "Roboto Mono", "Georgia", serif;
@@ -98,8 +97,6 @@ a.button {
   display: inline-block;
   border-radius: 8px;
   width: 100%;
-  margin-left: 250px;
-  margin-right: 250px;
   padding: 10px;
   border: groove;
   background-color: aqua;
