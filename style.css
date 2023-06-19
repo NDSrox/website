@@ -98,11 +98,12 @@ a.button {
   border-radius: 8px;
   width: 75%;
   padding: 10px;
-  margin-left: 25px;
-  margin-right: 25px;
+  /* margin-left: 25px;
+  margin-right: 25px; */
+  margin: auto;
   border: groove;
-  background-color: aqua;
-  /* background-color: lightblue; */
+  /* background-color: aqua; */
+  background-color: lightblue;
   overflow-x: auto;
   overflow-y: auto;
 }
