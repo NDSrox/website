@@ -103,8 +103,8 @@ a.button {
   margin-left: auto;
   margin-right: auto;
   border: groove;
-  background-color: aqua;
-  /* background-color: lightblue; */
+  /* background-color: aqua; */
+  background-color: lightblue;
   /* background-color: blanchedalmond; */
   overflow-x: auto;
   overflow-y: auto;
