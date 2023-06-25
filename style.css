@@ -117,3 +117,7 @@ a.button {
 	align-items: center;
 	margin-left: 10px;
 }
+
+figcaption {
+  margin: 15px;
+}
