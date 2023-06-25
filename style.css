@@ -113,5 +113,6 @@ a.button {
   font-size: 1.25em;
 }
 .inline {
+  width: 200px;
   display: inline-block;
 }
