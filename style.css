@@ -108,7 +108,7 @@ a.button {
   /* background-color: blanchedalmond; */
   overflow-x: auto;
   overflow-y: auto;
-  align-self: center;
+  align-items: center;
 }
 #main-explainer {
   font-size: 1.25em;
