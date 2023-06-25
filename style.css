@@ -103,9 +103,9 @@ a.button {
   margin-left: auto;
   margin-right: auto;
   border: groove;
-  /* background-color: aqua; */
-  /* background-color: lightblue; */
-  background-color: blanchedalmond;
+  background-color: aqua;
+  background-color: lightblue;
+  /* background-color: blanchedalmond; */
   overflow-x: auto;
   overflow-y: auto;
 }
@@ -114,5 +114,7 @@ a.button {
 }
 .inline {
   width: 100px;
-  display: inline-block;
+  display: flex;
+	aligh-items: center;
+	margin-left: 10px;
 }
