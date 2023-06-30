@@ -100,8 +100,9 @@ a.button {
   padding: 10px;
   /* margin-left: 25px;
   margin-right: 25px; */
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: auto;
   border: groove;
   background-color: aqua;
   background-color: lightblue;
