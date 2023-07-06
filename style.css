@@ -106,7 +106,7 @@ a.button {
   border: groove;
   background-color: aqua;
   background-color: lightblue;
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
   overflow-x: auto;
   overflow-y: auto;
   align-items: center;
