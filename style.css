@@ -127,3 +127,22 @@ figcaption {
 html {
   scroll-behavior:smooth;
 }
+
+#future-ideas {
+  /* display: inline-block; */
+  border-radius: 8px;
+  width: 90%;
+  padding: 10px;
+  /* margin-left: 25px;
+  margin-right: 25px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: auto;
+  border: groove;
+  background-color: aqua;
+  background-color: lightblue;
+  background-color: blanchedalmond;
+  overflow-x: auto;
+  overflow-y: auto;
+  align-items: center;
+}
