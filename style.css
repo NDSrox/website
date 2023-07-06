@@ -123,3 +123,7 @@ a.button {
 figcaption {
   margin: 15px;
 }
+
+html {
+  scroll-behavior:smooth;
+}
