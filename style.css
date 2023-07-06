@@ -3,6 +3,10 @@
   width: 100%;
 } */
 
+html {
+  scroll-behavior:smooth;
+}
+
 body {
   background-image: url("/img/white-abstract-background.gif");
   background-size: cover;
@@ -98,14 +102,10 @@ a.button {
   border-radius: 8px;
   width: 90%;
   padding: 10px;
-  /* margin-left: 25px;
-  margin-right: 25px; */
-  /* margin-left: auto;
-  margin-right: auto; */
   margin-left: 10px;
   border: groove;
   background-color: aqua;
-  /* background-color: lightblue; */
+  background-color: lightblue;
   /* background-color: blanchedalmond; */
   overflow-x: auto;
   overflow-y: auto;
@@ -124,23 +124,30 @@ figcaption {
   margin: 15px;
 }
 
-html {
-  scroll-behavior:smooth;
-}
-
 #future-ideas {
   /* display: inline-block; */
   border-radius: 8px;
   width: 90%;
   padding: 10px;
-  /* margin-left: 25px;
-  margin-right: 25px; */
-  /* margin-left: auto;
-  margin-right: auto; */
   margin: auto;
   border: groove;
   background-color: aqua;
   background-color: lightblue;
+  /* background-color: blanchedalmond; */
+  overflow-x: auto;
+  overflow-y: auto;
+  align-items: center;
+}
+
+#working-on {
+  /* display: inline-block; */
+  border-radius: 8px;
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+  border: groove;
+  background-color: aqua;
+  /* background-color: lightblue; */
   /* background-color: blanchedalmond; */
   overflow-x: auto;
   overflow-y: auto;
