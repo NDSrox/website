@@ -102,7 +102,7 @@ a.button {
   margin-right: 25px; */
   /* margin-left: auto;
   margin-right: auto; */
-  margin: auto;
+  margin-left: 10px;
   border: groove;
   background-color: aqua;
   background-color: lightblue;
@@ -141,7 +141,7 @@ html {
   border: groove;
   background-color: aqua;
   background-color: lightblue;
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
   overflow-x: auto;
   overflow-y: auto;
   align-items: center;
