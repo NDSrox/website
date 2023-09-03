@@ -155,15 +155,30 @@ figcaption {
 }
 
 #table-of-contents {
-    /* display: inline-block; */
     border-radius: 8px;
-    width: 50%;
+    width: 25%;
     padding: 10px;
     margin-left: 10px;
     border: groove;
-    background-color: rgb(073, 216, 200);
+    background-color: rgb(173, 216, 200);
     /* background-color: blanchedalmond; */
     overflow-x: auto;
     overflow-y: auto;
     align-items: center;
+}
+
+#phone-holder {
+    border-radius: 8px;
+    width: 25%;
+    padding: 10px;
+    margin-left: 10px;
+    border: groove;
+    background-color: rgb(173, 216, 200);
+    overflow-x: auto;
+    overflow-y: auto;
+    align-items: center;
+}
+
+.completed-projects-header {
+  font: bold 1.1em underline;
 }
