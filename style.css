@@ -98,15 +98,12 @@ a.button {
 }
 
 #glass-door-project-imgs {
-  /* display: inline-block; */
   border-radius: 8px;
-  width: 90%;
+  width: 25%;
   padding: 10px;
   margin-left: 10px;
   border: groove;
-  background-color: aqua;
-  background-color: lightblue;
-  /* background-color: blanchedalmond; */
+  background-color: rgb(173, 216, 200);
   overflow-x: auto;
   overflow-y: auto;
   align-items: center;
