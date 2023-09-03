@@ -157,7 +157,7 @@ figcaption {
 #table-of-contents {
     /* display: inline-block; */
     border-radius: 8px;
-    /* width: 90%; */
+    width: auto;
     padding: 10px;
     margin-left: 10px;
     border: groove;
