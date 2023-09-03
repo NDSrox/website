@@ -153,3 +153,17 @@ figcaption {
   overflow-y: auto;
   align-items: center;
 }
+
+#table-of-contents {
+    /* display: inline-block; */
+    border-radius: 8px;
+    width: 90%;
+    padding: 10px;
+    margin-left: 10px;
+    border: groove;
+    background-color: rgb(173, 216, 200);
+    /* background-color: blanchedalmond; */
+    overflow-x: auto;
+    overflow-y: auto;
+    align-items: center;
+}
