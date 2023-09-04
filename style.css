@@ -97,7 +97,7 @@ a.button {
   margin: 4px 2px;
 }
 
-#glass-door-project-imgs {
+#glass-door-project {
   border-radius: 8px;
   width: 25%;
   padding: 10px;
@@ -166,7 +166,7 @@ figcaption {
 
 #phone-holder {
     border-radius: 8px;
-    width: 25%;
+    width: 90%;
     padding: 10px;
     margin-left: 10px;
     border: groove;
@@ -177,5 +177,7 @@ figcaption {
 }
 
 .completed-projects-header {
-  font: bold 1.1em underline;
-}
+  font-weight: bold;
+  font-size: 1.2em;
+  text-decoration: underline;
+} 
